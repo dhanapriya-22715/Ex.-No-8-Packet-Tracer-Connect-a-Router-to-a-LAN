@@ -1,5 +1,6 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 25/11/2026
+
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -15,7 +16,8 @@ ________________________________________<br>
 •	Copper straight-through cables for LAN links; Serial DCE/DTE cable for WAN link <br>
 ________________________________________<br>
 # Network Topology Diagram
-(Insert your Packet Tracer screenshot showing R1—S1—PC1/PC2 and R2—S2—PC3/PC4, plus R1–R2 Serial link S0/0/0.)<br>
+<img width="1917" height="1135" alt="image" src="https://github.com/user-attachments/assets/5f0acb60-3220-441b-9182-084ae7c2b5c1" />
+
 ________________________________________<br>
 Addressing Table (from activity)<br>
 Device	Interface	IP Address	Subnet Mask	Default Gateway<br>
@@ -112,9 +114,24 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1917" height="1135" alt="image" src="https://github.com/user-attachments/assets/6e905278-afde-4062-8d6d-adae7a5e1ba5" />
+<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/8b34fbbb-cad1-42bf-9263-81abcff7d211" />
+
 •	show ip route on R1 and R2<br>
+<img width="1916" height="1112" alt="image" src="https://github.com/user-attachments/assets/0d776df5-047c-4e35-9d6f-4fec852a5dbb" />
+<img width="1917" height="1143" alt="image" src="https://github.com/user-attachments/assets/35c502ae-867a-4fc0-946e-b0722c2cc719" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/a205f574-bb99-4eb7-b604-ff56f9ff4bf6" />
+
+<img width="1916" height="1112" alt="image" src="https://github.com/user-attachments/assets/b67eeba3-b341-44d2-a0f4-d6476ad904c6" />
+
 •	Interface up messages after no shutdown on each link <br>
+
+<img width="1916" height="1143" alt="image" src="https://github.com/user-attachments/assets/ec0e9d8c-d901-4131-bb87-7e23d5fec386" />
+<img width="1916" height="1195" alt="image" src="https://github.com/user-attachments/assets/7e744efb-77b0-4046-9424-431e8e7c7cfc" />
+
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
